@@ -2,10 +2,7 @@
 
 Kids, parents and teachers wonder if the air quality and ventilation in classrooms meet the recommendations for low-transmission of Covid-19.
 
-<figure>
- <img src="img/co2_icon.png" alt="Hopewell PS" style="height: 200px;" align="right"/>
- <!-- https://commons.wikimedia.org/wiki/File:Co2_carbon_dioxide_icon.png -->
-</figure>
+<img src="img/co2_icon.png" alt="CO2" width="200" align="right"/>
 
 It turns out that you can get a pretty good indication of ventilation by measuring carbon dioxide (CO2). Everyone breathes out CO2, as every kid knows. Poor ventilation increases the risk of Covid-19 spreading. CO2 in a classroom increases when ventilation is poor. CO2 level below 1000 parts per million (ppm) is generally considered good ventilation. CO2 level outdoors is about 410 ppm.
 
@@ -19,10 +16,8 @@ My kids' classrooms are in the 100-year old [Hopewell Public School](https://hop
 
 We are passing along our plans so you can make your CO2 data logger to take to your school.
 
-<figure>
- <img src="img/hopewell-ps.png" alt="Hopewell PS" style="width: 70%;"/>
+ <img src="img/hopewell-ps.png" alt="Hopewell PS"/>
  <figcaption>Hopewell Public School - Old Ottawa South, Ottawa</figcaption>
-</figure>
 
 ## Hardware selection
 
@@ -47,26 +42,22 @@ You don't need a data logger. The minimal sensor could be a microcontroller, a C
 
 First, we made a breadboard prototype and got everything working.
 
-<figure>
- <img src="img/prototype.png" alt="prototype" style="width: 90%;/>
- <figcaption>Left to right: Feather RP2040; CO2 monitor; temperature, pressure, altitude; real-time clock; micro SD-card reader</figcaption>
-</figure>
-
+<img src="img/prototype.png" alt="prototype" width="90%"/>
+<figcaption>Left to right: Feather RP2040; CO2 monitor; temperature, pressure, altitude; real-time clock; micro SD-card reader</figcaption>
+ 
+#### 
 Next, we made our "production" version of the CO2 logger by soldered the sensors on a circuit board. Another saying in our house is any day soldering is a good day 🌞 —and a kid's small hands are perfect for soldering electronics.
 
-<figure>
- <img src="img/solder.jpg" alt="Soldering" style="width: 50%;"/>
- <figcaption>small hands work well for soldering</figcaption>
-</figure>
+<img src="img/solder.jpg" alt="Soldering" width="50%"/>
+<figcaption text-align="right">Small hands work well for soldering</figcaption>
 
+####
 Be careful with those connections. Sensor breakout boards put the connectors in different arrangements. My kids and I were careful to keep the wires in order, but we still got it mixed up once or twice. We soldered one sensor at a time, checking after each soldering with program code to ensure we got sensor readings. We used lead-free solder—a must—and Toby is wearing her goggles in the picture—another must. If you look carefully, our soldering desk is our kitchen stovetop. The hood above the stove has good lighting and a fan that vents outside. 👍
 
 Instead of soldering, you could use sensors with [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt) connectors. The code would be identical, and it would be faster to make, but you won't have fun soldering.
 
-<figure>
- <img src="img/logger.jpg" alt="Soldering" style="width: 95%;" />
- <figcaption>The final product! Green light, the CO2 level is good!</figcaption>
-</figure>
+<img src="img/logger.jpg" alt="Logger" width="95%" />
+<figcaption>The final product! Green light, the CO2 level is good!</figcaption>
 
 ## Code
 
