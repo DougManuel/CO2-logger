@@ -52,7 +52,7 @@ Next, we made our "production" version of the CO2 logger by soldered the sensors
 <figcaption text-align="right">Small hands work well for soldering</figcaption>
 
 ####
-Be careful with those connections. Sensor breakout boards put the connectors in different arrangements. My kids and I were careful to keep the wires in order, but we still got it mixed up once or twice. We soldered one sensor at a time, checking after each soldering with program code to ensure we got sensor readings. We used lead-free solder—a must—and Toby is wearing her goggles in the picture—another must. If you look carefully, our soldering desk is our kitchen stovetop. The hood above the stove has good lighting and a fan that vents outside. 👍
+Be careful with those connections. Sensor breakout boards put the connectors in different arrangements. My kids and I were careful to keep the wires in order, but we still got it mixed up once or twice. We soldered one sensor at a time, checking after each soldering with program code to ensure we got sensor readings. We used lead-free solder—a must—and my daughter is wearing her goggles in the picture—another must. If you look carefully, our soldering desk is our kitchen stovetop. The hood above the stove has good lighting and a fan that vents outside. 👍
 
 Instead of soldering, you could use sensors with [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt) connectors. The code would be identical, and it would be faster to make, but you won't have fun soldering.
 
