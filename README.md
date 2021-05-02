@@ -19,6 +19,10 @@ We are passing along our plans so you can make your CO2 data logger to take to y
  <img src="img/hopewell-ps.png" alt="Hopewell PS"/>
  <figcaption>Hopewell Public School - Old Ottawa South, Ottawa</figcaption>
 
+### Update 2021-05-02
+
+The [_Ottawa Citizen_](https://ottawacitizen.com/news/local-news/pandemic-project-ottawa-scientist-and-kids-craft-co2-data-logger-to-assess-classroom-ventilation) published an article on the logger. The kids didn't want their photos taken, being social media-wise, but I was fine because my photo is already in public. The school board issue a [statement](https://ocdsb.ca/news/carbon_dioxide_monitoring_in_schools) a few days later about monitoring CO2 in classrooms. Apparently, they received questions about monitoring in schools.🤷
+
 ## Hardware selection
 
 We built our CO2 data logger around the new [Adafruit RP2040 Feather](https://www.adafruit.com/product/4884). The RP2040 is the microcontroller of the year - a new offering from the Raspberry Pi foundation, with their Pico version costing just $4 USD. Adafruit's version costs a bit more, but it includes a LiPoly battery connector and a NeoPixel LED, which we knew would come in handy.
@@ -52,6 +56,7 @@ Next, we made our "production" version of the CO2 logger by soldered the sensors
 <figcaption text-align="right">Small hands work well for soldering</figcaption>
 
 ####
+
 Be careful with those connections. Sensor breakout boards put the connectors in different arrangements. My kids and I were careful to keep the wires in order, but we still got it mixed up once or twice. We soldered one sensor at a time, checking after each soldering with program code to ensure we got sensor readings. We used lead-free solder—a must—and my daughter is wearing her goggles in the picture—another must. If you look carefully, our soldering desk is our kitchen stovetop. The hood above the stove has good lighting and a fan that vents outside. 👍
 
 Instead of soldering, you could use sensors with [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt) connectors. The code would be identical, and it would be faster to make, but you won't have fun soldering.
