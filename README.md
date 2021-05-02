@@ -12,7 +12,7 @@ In our house, there is a saying, "don't come to me with a problem unless you hav
 
 We've been poking around with electronics in our house during the Covid-19 pandemic. The kids came with a solution to build our CO2 monitor. We got to work. We designed and built a CO2 monitor using a microcontroller and a data logger.
 
-My kids' classrooms are in the 100-year old [Hopewell Public School](https://hopewellaveps.ocdsb.ca/) in Ottawa. They both took the monitor into their classrooms for a day (grade 4 and 6). It turned out the CO2 levels were excellent!
+My kids' classrooms are in the 100-year old [Hopewell Public School](https://hopewellaveps.ocdsb.ca/) in Ottawa. They both took the monitor into their classrooms for a day (grade 4 and 6). It turned out the CO2 levels were excellent! The classroom windows were partially-opened on the day of testing. Apparently a practice that the teachers use whenever the temperature permits. As well, there wasn't a full class roster. Covid-19 was increasing quickly in Ottawa and some kids already transitioned to school-at-home.
 
 We are passing along our plans so you can make your CO2 data logger to take to your school.
 
