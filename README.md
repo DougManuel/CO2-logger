@@ -18,6 +18,10 @@ We are passing along our plans so you can make your CO2 data logger to take to y
 
  <img src="img/hopewell-ps.png" alt="Hopewell PS"/>
  <figcaption>Hopewell Public School - Old Ottawa South, Ottawa</figcaption>
+ 
+### Update 2021-05-20
+
+[Indoor CO2 Sensors for COVID-19 Risk Mitigation: Current Guidance and Limitations](https://ncceh.ca/documents/field-inquiry/indoor-co2-sensors-covid-19-risk-mitigation-current-guidance-and), a review by Canada's National Colloborating Centre for Environmental Health to answer all you questions about CO2 monitors and ventilation.
 
 ### Update 2021-05-02
 
